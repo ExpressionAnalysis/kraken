@@ -192,7 +192,7 @@ void report_stats(struct timeval time1, struct timeval time2) {
   if (Fastq_input) {
     reader = new FastqReader(file_str);
     if(Paired_end) {
-      std::cout << "xx" << file_str2 << std::endl;
+      //std::cout << "xx" << file_str2 << std::endl;
       reader2 = new FastqReader(file_str2);
     }
   }  else {
