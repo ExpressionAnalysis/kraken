@@ -1,7 +1,5 @@
 CXX = g++
 # CXXFLAGS = -std=c++0x -Wall -fopenmp  -DGZSTREAM_NAMESPACE=gz -O3 -I.
-CXXFLAGS = -std=c++0x -Wall -fopenmp  -DGZSTREAM_NAMESPACE=gz -g -I.
-LDFLAGS = -L. -lkraken -lz
 AR       = ar cr
 
 PROGS = db_sort set_lcas classify make_seqid_to_taxid_map db_shrink

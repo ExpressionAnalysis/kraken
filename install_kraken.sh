@@ -19,6 +19,9 @@
 
 set -e
 
+export CXXFLAGS="-std=c++0x -Wall -fopenmp  -DGZSTREAM_NAMESPACE=gz -g -I."
+export LDFLAGS="-L$PREFIX/lib -L. -lkraken -lz"
+
 VERSION="0.10.6-unreleased"
 
 if [ -z "$1" ] || [ -n "$2" ]
